@@ -10,11 +10,17 @@
     <preference for="Magento\AsynchronousImportSourceDataRetrievingApi\Api\Data\SourceInterface"
                 type="Magento\AsynchronousImportSourceDataRetrieving\Model\Source" />
 
+    <preference for="Magento\AsynchronousImportSourceDataRetrievingApi\Model\PartialSourceInterface"
+                type="Magento\AsynchronousImportSourceDataRetrieving\Model\PartialSource" />
+
     <preference for="Magento\AsynchronousImportSourceDataRetrievingApi\Api\Data\SourceDataInterface"
                 type="Magento\AsynchronousImportSourceDataRetrieving\Model\SourceData" />
 
     <preference for="Magento\AsynchronousImportSourceDataRetrievingApi\Api\RetrieveSourceDataInterface"
                 type="Magento\AsynchronousImportSourceDataRetrieving\Model\RetrieveSourceData" />
+
+    <preference for="Magento\AsynchronousImportSourceDataRetrievingApi\Api\Data\RetrievingResultInterface"
+                type="Magento\AsynchronousImportSourceDataRetrieving\Model\RetrievingResult" />
 
     <!-- Source data retrieving strategies -->
     <type name="Magento\AsynchronousImportSourceDataRetrieving\Model\RetrieveSourceData">

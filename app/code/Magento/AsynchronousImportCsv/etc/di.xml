@@ -13,6 +13,12 @@
     <preference for="Magento\AsynchronousImportCsvApi\Api\StartImportInterface"
                 type="Magento\AsynchronousImportCsv\Model\StartImport"/>
 
+    <preference for="Magento\AsynchronousImportCsvApi\Api\StartPartialImportInterface"
+                type="Magento\AsynchronousImportCsv\Model\StartPartialImport"/>
+
     <preference for="Magento\AsynchronousImportCsvApi\Model\DataParserInterface"
                 type="Magento\AsynchronousImportCsv\Model\DataParser"/>
+
+    <preference for="Magento\AsynchronousImportCsvApi\Api\PoolProcessPartialDataInterface"
+                type="Magento\AsynchronousImportCsv\Model\PoolProcessPartialData" />
 </config>

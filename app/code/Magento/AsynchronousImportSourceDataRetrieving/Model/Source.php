@@ -63,6 +63,14 @@ class Source implements SourceInterface
     /**
      * @inheritdoc
      */
+    public function setSourceDefinition(string $sourceDefinition): void
+    {
+        $this->sourceDefinition = $sourceDefinition;
+    }
+
+    /**
+     * @inheritdoc
+     */
     public function getSourceDataFormat(): string
     {
         return $this->sourceDataFormat;

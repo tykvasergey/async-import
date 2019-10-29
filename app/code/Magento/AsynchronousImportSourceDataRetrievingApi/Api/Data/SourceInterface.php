@@ -33,6 +33,13 @@ interface SourceInterface
     public function getSourceDefinition(): string;
 
     /**
+     * Set source definition
+     *
+     * @return string
+     */
+    public function setSourceDefinition(string $sourceDefinition): void;
+
+    /**
      * Get source data format
      *
      * @return string
