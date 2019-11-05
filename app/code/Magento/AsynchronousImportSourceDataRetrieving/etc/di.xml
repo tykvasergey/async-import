@@ -22,6 +22,9 @@
     <preference for="Magento\AsynchronousImportSourceDataRetrievingApi\Api\Data\RetrievingResultInterface"
                 type="Magento\AsynchronousImportSourceDataRetrieving\Model\RetrievingResult" />
 
+    <preference for="Magento\AsynchronousImportSourceDataRetrievingApi\Model\PartialSourceDataValidatorInterface"
+                type="Magento\AsynchronousImportSourceDataRetrieving\Model\SourceValidator\PartialSourceDataValidator"/>
+
     <!-- Source data retrieving strategies -->
     <type name="Magento\AsynchronousImportSourceDataRetrieving\Model\RetrieveSourceData">
         <arguments>
